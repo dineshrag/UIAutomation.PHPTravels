@@ -1,0 +1,40 @@
+﻿Issue: User is able to view available flights information without entering the from and to city details
+Expected Result : From and To city should be mandatory
+Actual Result: User is able to view available flights wothout entering the from and to cities and in the Available flights page from and to city is displaying as null to null
+
+Issue: From city and To city field is not flexible to the screen size and if user enters a long name it only displays until some characters 
+Expected Result : From city and to city fields should be flexible and the entered infromation should fully visable to the user
+Actual Result: From city and To city field squeezed to fixed length.
+Example: Enter or Select Syndey Kingsford Smith Airport from From city or To city
+
+Issue : Cabin class is not visable to the user; If user changes the Cabin class type then the background color of the field is changing to white
+Epected Result: Cabin class should visable to the user
+Actual Result: Cabin class field back ground color changed to white and the text color also in white so it is not visable to the user
+
+
+Issue : Date validation is not working; User is able to enter past days in the From date and To date fields
+Expected Results: Application should not allow user to enter past dates
+Actual Result: When user types into From and To date fields it is taking past days also; Flight availability is also displaying the past days flights information
+
+Issue : Number of users validation is not working; User is able to enter 0 passengers and application navigating to next page without passengers
+Expected Result: Application should not allow users to view the flights information until the number of users atleast 1
+Actual Result: When user types 0 into number of passengers it is navigating to available flights information
+
+Issue: When user selects Roundtrip option in home screen and naviagted to next page; In the Available Flights screen it is displaying One Way option checked
+Expected Result: User option should carried to the next screen
+Actual Result: default option only carried to the next screen
+
+Issue: Application displaying standard USD currency rather user geolocation based currency
+Expected Result: Currency should display based on users location
+Actual Result: USD currency is displayed in sydney locaiton
+
+Issue: Boking Summary details are incorrect
+Expected Result: Booking Summary details should display the selected flight details in the available flights section
+
+Issue: Passengers age validation not working; Allowing user to enter string in age field
+Expected Result: Age field should only allow numbers
+
+
+
+
+
